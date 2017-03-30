@@ -17,6 +17,6 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^price/', include('price.urls')),
+    url(r'^pricetracker/', include('pricetracker.urls')),
     url(r'^admin/', admin.site.urls),
 ]
